@@ -1,0 +1,52 @@
+.container {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc9APxkj0xClmrU3PpMZglHQkx446nQPG6lA&s");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.sub-container {
+    max-width: 65%;
+    text-align: center;
+    line-height: 1;
+    color: #fff;
+}
+
+.head-title{
+    font-size: 47px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.subtitle-container{
+    width: 100%;
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+}
+
+.sub-title {
+    font-size: 20px;
+    max-width: 80%; 
+}
+
+.get-started-btn {
+    border: none;
+    background-color: cadetblue;
+    width: 150px;
+    border-radius: 10px;
+    height: 30px;
+    font-size: 17px;
+    color: aliceblue;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.get-started-btn:hover {
+    
+    background-color:brown;
+}
