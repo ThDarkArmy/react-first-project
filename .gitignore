@@ -21,3 +21,14 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+git init -> To initialize git repository
+git add . -> Add every files add to git
+git commit -m "first commit" -> commiting to git and adding commit message
+git branch -M main - switching to main branch
+git remote add origin https://github.com/ThDarkArmy/react-first-project.git  - adding remote origin
+git push -u origin main - pushing code to github
+git status - check the current status/changes
+git checkout -b branch_name -> Create new branch
+git checkout branch_name -> switching to the branch without creating new one
+git pull -> Pull latest from git
