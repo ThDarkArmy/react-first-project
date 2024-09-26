@@ -17,6 +17,7 @@ const IncrementDecrement = () => {
     }
 
     const handleRandomText = (e) => {
+        setRandomText(e.target.value)
         console.log("Event: ", e)
     }
   return (
